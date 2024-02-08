@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero{
+    height: auto;
+    width: 100%;
+    background-image: url('../img/Decore.svg');
+    background-repeat: no-repeat;
+    background-size:100%;;
+    margin: 0;
+}
+.contact-container{
+    background-image: url('/public/img/wires-contact.png');
+    background-position: right center;
+
+}
+.contact-decor{
+    background-image: url('/public/img/decore3.png');
+    background-position: right 2% top 97%;
+    background-repeat: no-repeat;
+    z-index: -9999px;
+
+}
+.testimonial-container {
+    overflow: hidden;
+    position: relative;
+    width: 70%;
+    max-width: auto; /* Adjust as needed */
+    margin: auto;
+}
+
+.testimonial-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-item {
+    flex: 0 0 100%;
+}
