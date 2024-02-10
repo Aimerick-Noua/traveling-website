@@ -7,7 +7,6 @@
     <link href="./css/main.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Google+Sans:wght@400;700&display=swap">
-    <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -19,6 +18,25 @@
                     <img src="img/Logo.svg" alt="" class="md:h-8">
                 </div>
                 <div class="hidden nav-link md:flex flex-row space-x-9">
+                    <a href="#" class="font-GoogleSans">Destinations</a>
+                    <a href="#" class="font-GoogleSans">Hotels</a>
+                    <a href="#" class="font-GoogleSans">Flights</a>
+                    <a href="#" class="font-GoogleSans">Bookings</a>
+                    <a href="#" class="font-GoogleSans">Login</a>
+                    <a href="#" class="font-GoogleSans">Sign up</a>
+                    <a href="#" class="font-GoogleSans">En</a>
+                </div>
+
+                            <!-- Hamburger icon  -->
+            <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+
+            </div>
+            <div class="md:hidden">
+                <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
                     <a href="#" class="font-GoogleSans">Destinations</a>
                     <a href="#" class="font-GoogleSans">Hotels</a>
                     <a href="#" class="font-GoogleSans">Flights</a>
@@ -244,7 +262,7 @@
                     What people say about Us.
                 </h1>
             </div>
-            <div class="md:w-1/2 flex flex-row items-center space-x-0 md:space-x-10">
+            <div class="md:w-1/2 flex flex-row items-center space-x-0 ml-3 md:space-x-10">
                 <div class="testimonial-container">
                     <div class="testimonial-wrapper ">
                         <!-- testimonial1  -->
@@ -471,11 +489,15 @@
         </div>
     </section>
     <section id="footerprivacy">
-        <div class="container mx-auto flex justify-center mb-8 md:mb-16">
+        <div class="container mx-auto flex justify-center mb-2 md:mb-6">
             <h3 class="font-poppins font-medium text-lightPurple text-center">All rights reserved@jadoo.co</h3>
         </div>
+        <div class="container mx-auto flex justify-center mb-8 md:mb-16">
+            <h3 class="font-poppins font-medium text-lightPurple text-center">Designed by <a class="text-sky-500 hover:text-sky-800 hover:font-bold" href="mailto:aimericknoua1@gmial.com">aimericknoua</a></h3>
+        </div>
     </section>
-    
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>
